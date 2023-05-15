@@ -1,1 +1,1 @@
-coins = 7
+coins = 8

@@ -50,7 +50,3 @@ else:
 f = open("bank.py", "w")
 f.write("coins = " + str(coins))
 f.close()
-
-
-#need to ask user to spend a coin or not to play still and to make sure that the
-#coins are being properly added to bank.py

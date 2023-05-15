@@ -41,7 +41,7 @@ if attempts > 3:
     print("You are out of tries! You lose!")
 
 #adds coins to bank.py file to update user's coin count.
-print("You now have " + str(coins) + "coins!")
+print("You now have " + str(coins) + " coins!")
 f = open("bank.py", "w")
 f.write("coins = " + str(coins))
 f.close()
